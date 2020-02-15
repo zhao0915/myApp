@@ -1,0 +1,118 @@
+@padding: 40px;
+.mine {
+  .mine-info {
+    display: flex;
+    background-color: #61C9DB;
+    height: 300px;
+    align-items: center;
+    position: relative;
+    .mine-info-avator {
+      width: 128px;
+      margin-left: 42px;
+      height: 128px;
+      border-radius: 50%;
+      overflow: hidden;
+    }
+    .mine-info-basic {
+      color: #fff;
+      margin-left: 42px;
+      .mine-info-name {
+        margin-bottom: 10px;
+        font-size: 36px;
+      }
+      .mine-info-phone {
+        margin-top: 10px;
+        font-size: 26px;
+      }
+    }
+    .mine-info-row {
+      width: 18px;
+      height: 30px;
+      position: absolute;
+      right: 46px;
+      top: 50%;
+      transform: translateY(-50%);
+    }
+    
+  }
+  .mine-btn {
+    background-color: #61C9DB;
+    display: flex;
+    border-top: 1px #FFFFFF solid;
+    .mine-btn-item {
+      flex: 1;
+      height: 80px;
+      font-size: 32px;
+      line-height: 80px;
+      text-align: center;
+      color: #fff;
+    }
+    .mine-btn-item:first-child {
+      border-right: 1px solid #fff;
+    }
+  }
+  .mine-content {
+    background-color: #F6F6F6;
+    min-height: calc(100vh - 380px);
+    // background: red;
+    overflow: hidden;
+    .mine-content-item {
+      display: flex;
+      height: 136px;
+      justify-content: space-between;
+      align-items: center;
+      padding: 0 36px;
+      background-color: #fff;
+      margin-top: 40px;
+      .mine-content-left {
+        .mine-content-title {
+          color: #333333;
+          font-size: 32px;
+        }
+        .mine-content-time {
+          color: #B8B8B8;
+          margin-top: 10px;
+          font-size: 26px;
+        }
+      }
+      .content-row {
+        width: 46px;
+        height: 46px;
+      }
+    }
+  }
+  // &-sort {
+  //   padding-top: 32px;
+  //   width: 100%;
+  //   box-sizing: border-box;
+  //   padding-left: @padding;
+  //   display: flex;
+  //   background-color: #fff;
+  //   align-items: center;
+  //   &__btn {
+  //     &:not(:first-child) {
+  //       padding-left: 46px;
+  //       font-size: 32px;
+  //       line-height: 40px;
+  //     }
+
+  //     &.active {
+  //       color: #174372;
+  //       font-weight: 500;
+  //       position: relative;
+
+  //       &::after {
+  //         content: '';
+  //         position: absolute;
+  //         left: 50%;
+  //         top: calc(~'100% + 10px');
+  //         transform: translate(-50%, 0);
+  //         width: 64px;
+  //         height: 8px;
+  //         border-radius: 4px;
+  //         background-color: #61C9DB;
+  //       }
+  //     }
+  //   }
+  // }
+}

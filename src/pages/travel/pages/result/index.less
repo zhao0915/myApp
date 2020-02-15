@@ -1,0 +1,101 @@
+.travelResult {
+  min-height: 100vh;
+  background-color: #e6e6e6;
+  overflow: hidden;
+  .travelResult-header {
+    background-color: #5CC5D4;
+    color: #fff;
+    height: 140px;
+    box-sizing: border-box;
+    padding: 20px 0 20px 30px;
+    .travelResult-title {
+      font-size: 36px;
+    }
+    .travelResult-dec {
+      font-size: 24px;
+      margin-top: 10px;
+    }
+  }
+  .travelResult-content {
+    padding: 0 20px;
+    height: calc(100vh - 140px);
+    overflow: hidden;
+    box-sizing: border-box;
+    .noResult {
+      color: #5CC5D4;
+      text-align: center;
+      height: 200px;
+      line-height: 200px;
+    }
+    .travelResult-item {
+      border-radius: 16px;
+      background-color: #fff;
+      margin-top: 20px;
+      display: flex;
+      position: relative;
+      .travelResult-left {
+        border-radius: 16px 0 0 16px;
+        background-color: #5CC5D4;
+        width: 130px;
+        color: #fff;
+        display: flex;
+        flex-direction: column;
+        font-size: 28px;
+        box-sizing: border-box;
+        padding: 10px 0 10px 10px;
+        justify-content: space-between;
+      }
+      .travelResult-right {
+        padding: 20px;
+        flex: 1;
+        .travelResult-plate {
+          color: #888;
+          font-size: 24px;
+        }
+        .travelResult-plateVlue {
+
+        }
+        .travelResult-detail {
+          display: flex;
+          .travelResult-detail-left {
+            flex: 1;
+            .travelResult-start {
+              color: #888;
+              font-size: 24px;
+            }
+            .travelResult-address {
+              font-size: 28px;
+            }
+            .travelResult-time {
+              font-size: 28px;
+            }
+          }
+          .travelResult-detail-right {
+            flex: 1;
+            padding-right: 10px;
+            .travelResult-start {
+              color: #888;
+              font-size: 24px;
+            }
+            .travelResult-address {
+              font-size: 28px;
+            }
+            .travelResult-time {
+              font-size: 28px;
+            }
+          }
+        }
+      }
+    }
+    .travelResult-item-dot {
+      font-size: 24px;
+      position: absolute;
+      right: 0;
+      color: #fff;
+      top: 0;
+      background: #EC5F6C;
+      padding: 5px;
+      border-radius: 0 16px 0 16px;
+    }
+  }
+}

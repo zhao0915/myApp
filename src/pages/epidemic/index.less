@@ -1,0 +1,144 @@
+.epidemic {
+  min-height: 100vh;
+  width: 100%;
+  background-color: #F6F6F6;
+  overflow: hidden;
+  .epidemic-banner {
+    width: 100%;
+    height: 222px;
+  }
+  .epidemic-map {
+    margin-top: 24px;
+    background-color: #fff;
+    overflow: hidden;
+    .epidemic-map-title {
+      font-size: 34px;
+      height: 90px;
+      line-height: 90px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      // background-color: #f00;
+      padding-left: 36px;
+    }
+    .epidemic-map-title::before {
+      // position: absolute;
+      content: ' ';
+      height: 34px;
+      margin-right: 26px;
+      width: 10px;
+      display: block;
+      background-color: #61C9DB;
+    }
+    .epidemic-map-content {
+      min-height: 500px;
+      width: 100%;
+    }
+  }
+  .epidemic-content {
+    margin-top: 24px;
+    background-color: #fff;
+    overflow: hidden;
+    padding: 0 0 40px 0;
+    .epidemic-content-title {
+      font-size: 34px;
+      height: 90px;
+      line-height: 90px;
+      position: relative;
+      display: flex;
+      align-items: center;
+      // background-color: #f00;
+      padding-left: 36px;
+    }
+    .epidemic-content-title::before {
+      // position: absolute;
+      content: ' ';
+      height: 34px;
+      margin-right: 26px;
+      width: 10px;
+      display: block;
+      background-color: #61C9DB;
+    }
+    .epidemic-content-city {
+      padding: 0 36px;
+      .epidemic-content-head {
+        display: flex;
+        height: 80px;
+        line-height: 80px;
+        font-size: 28px;
+        font-weight: bold;
+        .epidemic-head-item {
+          flex: 1;
+          text-align: center;
+        }
+        .diqu {
+          color: #666666;
+        }
+        .quezhen {
+          color: #D5603A;
+        }
+        .siwang {
+          color: #6D6D6D;
+        }
+        .zhiyu {
+          color: #3F8C81;
+        }
+      }
+      .epidemic-content-item {
+        font-size: 26px;
+        margin-top: 16px;
+        color: #444444;
+        .epidemic-provinve {
+          height: 80px;
+          line-height: 80px;
+          position: relative;
+          display: flex;
+          background-color: #F5F5F5;
+          border-radius: 40px;
+          .epidemic-provinve-item {
+            flex: 1;
+            text-align: center;
+          }
+          .epidemic-provinve-icon {
+            position: absolute;
+            top: 35px;
+            right: 20px;
+            transition: transform 0.5s;
+            width: 20px;
+            height: 10px;
+          }
+          .open {
+            transform: rotate(180deg);
+          }
+        }
+        .epidemic-provinve-body {
+          .epidemic-city {
+            display: flex;
+            border-bottom: 1px #e6e6e6 solid;
+            height: 80px;
+            line-height: 80px;
+            
+            .epidemic-city-item {
+              flex: 1;
+              text-align: center;
+            }
+          }
+          .epidemic-city:last-child {
+            border: none;
+          }
+        }
+        
+      }
+    }
+  }
+  .epidemic-bot {
+    display: flex;
+    justify-content: center;
+    height: 200px;
+    align-items: center;
+    .botImag {
+      height: 50px;
+      width: 261px;
+    }
+  }
+} 

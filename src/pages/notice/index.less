@@ -1,0 +1,39 @@
+.notice {
+  min-height: 100vh;
+  background-color: #F6F6F6;
+  overflow: hidden;
+  .notice-item {
+    background-color: #fff;
+    margin-top: 30px;
+    padding: 20px 0 38px 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    .notice-item-left {
+      flex: 1;
+      .notice-item-title {
+        color: #333333;
+        font-size: 32px;
+      }
+      .notice-item-time {
+        margin-top: 20px;
+        color: #333333;
+        font-size: 26px;
+      }
+      .notice-item-content {
+        color: #333333;
+        margin-top: 20px;
+        font-size: 26px;
+        overflow: hidden;
+        text-overflow: ellipsis;
+        white-space: nowrap;
+        max-width: 650px;
+      }
+    }
+    .notice-item-right {
+      z-index: 10;
+      width: 46px;
+      height: 46px;
+    }
+  }
+}

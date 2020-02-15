@@ -1,0 +1,1 @@
+export const MEET_LIST = 'MEET_LIST'

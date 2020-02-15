@@ -1,0 +1,51 @@
+.panel {
+  margin-top: 20px;
+  padding: 0 20px;
+  overflow: hidden;
+  .panel-box {
+    overflow: hidden;
+    border-radius: 16px;
+    background-color: #fff;
+    padding: 40px 20px 60px 20px;
+    // margin-top: 90px;
+  }
+  .panel-box:first-child {
+    margin-top: 20px;
+  }
+  .panel-title {
+    // background: red;
+    font-size: 34px;
+    color: #333333;
+    position: relative;
+  }
+  .panel-title::after {
+    content: ' ';
+    height: 20px;
+    width: 200px;
+    background: rgba(97, 201, 219, 0.3);
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  .panel-body {
+    display: flex;
+    margin-top: 20px;
+  }
+  .panel-item {
+    width: 180px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+  }
+  .panel-icon {
+    width: 112px;
+    height: 112px;
+    border-radius: 50%;
+  }
+  .panel-name {
+    // margin-top: 20px;
+    font-size: 28px;
+    color: #333333;
+  }
+}
